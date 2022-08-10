@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCORE To Docker", "EFCORE To Docker\EFCORE To Docker.csproj", "{D72D3CF1-B535-4EEF-BC6E-F3F71139D4B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR", "SignalR", "{634CB389-9DDD-4578-8584-1555F04CA038}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalServer", "SignalServer\SignalServer.csproj", "{01EE851C-7451-4DF0-80A6-074CA3F97B5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalClient", "SignalClient\SignalClient.csproj", "{6765A3AF-EE06-4706-8620-E66DA23FEB9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MD5+数据验证", "JWT\MD5+数据验证.csproj", "{94C8B5E9-62CE-4103-9760-E4A9071DEA56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTLearn(身份验证 权限验证)", "JWTLearn\JWTLearn(身份验证 权限验证).csproj", "{0F012F03-8408-454F-B62E-27BCD1EF9A4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity框架", "Identity框架\Identity框架.csproj", "{CA98F1E7-21E0-4A03-976F-A069328DEC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用过滤器实现缓存（内存缓存）", "使用过滤器实现缓存（内存缓存）\使用过滤器实现缓存（内存缓存）.csproj", "{B8B8BB71-E737-48D5-BB12-806A82F7F968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D72D3CF1-B535-4EEF-BC6E-F3F71139D4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72D3CF1-B535-4EEF-BC6E-F3F71139D4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72D3CF1-B535-4EEF-BC6E-F3F71139D4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72D3CF1-B535-4EEF-BC6E-F3F71139D4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EE851C-7451-4DF0-80A6-074CA3F97B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EE851C-7451-4DF0-80A6-074CA3F97B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EE851C-7451-4DF0-80A6-074CA3F97B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EE851C-7451-4DF0-80A6-074CA3F97B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6765A3AF-EE06-4706-8620-E66DA23FEB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6765A3AF-EE06-4706-8620-E66DA23FEB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6765A3AF-EE06-4706-8620-E66DA23FEB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6765A3AF-EE06-4706-8620-E66DA23FEB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C8B5E9-62CE-4103-9760-E4A9071DEA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C8B5E9-62CE-4103-9760-E4A9071DEA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C8B5E9-62CE-4103-9760-E4A9071DEA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C8B5E9-62CE-4103-9760-E4A9071DEA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F012F03-8408-454F-B62E-27BCD1EF9A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F012F03-8408-454F-B62E-27BCD1EF9A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F012F03-8408-454F-B62E-27BCD1EF9A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F012F03-8408-454F-B62E-27BCD1EF9A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA98F1E7-21E0-4A03-976F-A069328DEC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA98F1E7-21E0-4A03-976F-A069328DEC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA98F1E7-21E0-4A03-976F-A069328DEC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA98F1E7-21E0-4A03-976F-A069328DEC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B8BB71-E737-48D5-BB12-806A82F7F968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B8BB71-E737-48D5-BB12-806A82F7F968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B8BB71-E737-48D5-BB12-806A82F7F968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B8BB71-E737-48D5-BB12-806A82F7F968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01EE851C-7451-4DF0-80A6-074CA3F97B5A} = {634CB389-9DDD-4578-8584-1555F04CA038}
+		{6765A3AF-EE06-4706-8620-E66DA23FEB9F} = {634CB389-9DDD-4578-8584-1555F04CA038}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C320CDBC-9A06-461A-B425-C0D88A48E570}
+	EndGlobalSection
+EndGlobal
