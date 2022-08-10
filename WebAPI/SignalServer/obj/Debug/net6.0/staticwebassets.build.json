@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LSbu1Mekg0G7zOEcqmh1FGWNdXaysDG5UIjoFZU10Xk=",
+  "Source": "SignalServer",
+  "BasePath": "_content/SignalServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

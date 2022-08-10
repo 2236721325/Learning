@@ -1,0 +1,32 @@
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\EFCORE To Docker.exe
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\EFCORE To Docker.deps.json
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\EFCORE To Docker.runtimeconfig.json
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\EFCORE To Docker.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\EFCORE To Docker.pdb
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Humanizer.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\MySqlConnector.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.csproj.AssemblyReference.cache
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.AssemblyInfoInputs.cache
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.AssemblyInfo.cs
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.csproj.CopyComplete
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\refint\EFCORE To Docker.dll
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.pdb
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\EFCORE To Docker.genruntimeconfig.cache
+D:\Coding\Learning\WebAPI\EFCORE To Docker\obj\Debug\net6.0\ref\EFCORE To Docker.dll
