@@ -17,6 +17,7 @@ namespace JWT.Models
                 et.Property(t => t.Name).HasMaxLength(12);
                 et.Ignore(t => t.TempPwd);
             });
+        
         }
         public DbSet<UserInfo> UserInfos { get; set; }
     }

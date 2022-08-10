@@ -12,13 +12,13 @@ namespace 使用过滤器实现缓存_内存缓存_.Controllers
         public MemoryCageDemoController(IMemoryCache cage)
         {
             this.cage = cage;
-            Hello
+            
         }
 
         [HttpPost]
         [TypeFilter(typeof(ResourceCageFilter))]//使用Filter的优势
                                                 //当然实际使用的时候需要多考虑
-                                                //需要设置缓存过期实现
+                                                //需要设置缓存过期实现 
                                                 //防止缓存雪崩
                                                 //防止缓存穿透
                                                 //对某些实时性的数据要及时更新
