@@ -1,0 +1,15 @@
+D:\Coding\Learning\Basic\特性\bin\Debug\net6.0\特性.exe
+D:\Coding\Learning\Basic\特性\bin\Debug\net6.0\特性.deps.json
+D:\Coding\Learning\Basic\特性\bin\Debug\net6.0\特性.runtimeconfig.json
+D:\Coding\Learning\Basic\特性\bin\Debug\net6.0\特性.dll
+D:\Coding\Learning\Basic\特性\bin\Debug\net6.0\特性.pdb
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\特性.csproj.AssemblyReference.cache
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\特性.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\特性.AssemblyInfoInputs.cache
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\特性.AssemblyInfo.cs
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\特性.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\特性.dll
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\refint\特性.dll
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\特性.pdb
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\特性.genruntimeconfig.cache
+D:\Coding\Learning\Basic\特性\obj\Debug\net6.0\ref\特性.dll

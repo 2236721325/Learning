@@ -1,0 +1,15 @@
+D:\Coding\Learning\Basic\Linq\bin\Debug\net6.0\Linq.exe
+D:\Coding\Learning\Basic\Linq\bin\Debug\net6.0\Linq.deps.json
+D:\Coding\Learning\Basic\Linq\bin\Debug\net6.0\Linq.runtimeconfig.json
+D:\Coding\Learning\Basic\Linq\bin\Debug\net6.0\Linq.dll
+D:\Coding\Learning\Basic\Linq\bin\Debug\net6.0\Linq.pdb
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\Linq.csproj.AssemblyReference.cache
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\Linq.AssemblyInfoInputs.cache
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\Linq.AssemblyInfo.cs
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\Linq.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\Linq.dll
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\refint\Linq.dll
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\Linq.pdb
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\Linq.genruntimeconfig.cache
+D:\Coding\Learning\Basic\Linq\obj\Debug\net6.0\ref\Linq.dll

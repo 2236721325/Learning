@@ -17,7 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTLearn(身份验证 权�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity框架", "Identity框架\Identity框架.csproj", "{CA98F1E7-21E0-4A03-976F-A069328DEC8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用过滤器实现缓存（内存缓存）", "使用过滤器实现缓存（内存缓存）\使用过滤器实现缓存（内存缓存）.csproj", "{B8B8BB71-E737-48D5-BB12-806A82F7F968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "使用过滤器实现缓存（内存缓存）", "使用过滤器实现缓存（内存缓存）\使用过滤器实现缓存（内存缓存）.csproj", "{B8B8BB71-E737-48D5-BB12-806A82F7F968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDD实战小DEMO_用户管理系统", "DDD实战小DEMO_用户管理系统", "{D408D040-0E91-48E6-B069-F5F74FE85754}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.WebAPI", "UserManagement.WebAPI\UserManagement.WebAPI.csproj", "{40EE8A04-22A9-4301-AEFF-1D8470C7E1F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Domain", "UserManagement.Domain\UserManagement.Domain.csproj", "{50BE5242-2C89-426D-A3A3-28A59597438C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDDLearn", "DDDLearn", "{C7C21AE4-BBFF-4B38-982E-58311D326661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR使用", "MediatR使用\MediatR使用.csproj", "{F3D7E4DD-DC3D-43BE-AC3C-CADDD58A4F25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +63,18 @@ Global
 		{B8B8BB71-E737-48D5-BB12-806A82F7F968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8B8BB71-E737-48D5-BB12-806A82F7F968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8B8BB71-E737-48D5-BB12-806A82F7F968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EE8A04-22A9-4301-AEFF-1D8470C7E1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EE8A04-22A9-4301-AEFF-1D8470C7E1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EE8A04-22A9-4301-AEFF-1D8470C7E1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EE8A04-22A9-4301-AEFF-1D8470C7E1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BE5242-2C89-426D-A3A3-28A59597438C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BE5242-2C89-426D-A3A3-28A59597438C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BE5242-2C89-426D-A3A3-28A59597438C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BE5242-2C89-426D-A3A3-28A59597438C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D7E4DD-DC3D-43BE-AC3C-CADDD58A4F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D7E4DD-DC3D-43BE-AC3C-CADDD58A4F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D7E4DD-DC3D-43BE-AC3C-CADDD58A4F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D7E4DD-DC3D-43BE-AC3C-CADDD58A4F25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +82,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{01EE851C-7451-4DF0-80A6-074CA3F97B5A} = {634CB389-9DDD-4578-8584-1555F04CA038}
 		{6765A3AF-EE06-4706-8620-E66DA23FEB9F} = {634CB389-9DDD-4578-8584-1555F04CA038}
+		{40EE8A04-22A9-4301-AEFF-1D8470C7E1F0} = {D408D040-0E91-48E6-B069-F5F74FE85754}
+		{50BE5242-2C89-426D-A3A3-28A59597438C} = {D408D040-0E91-48E6-B069-F5F74FE85754}
+		{F3D7E4DD-DC3D-43BE-AC3C-CADDD58A4F25} = {C7C21AE4-BBFF-4B38-982E-58311D326661}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C320CDBC-9A06-461A-B425-C0D88A48E570}

@@ -29,6 +29,14 @@ DDD为指导微服务的原则
 
 [.NET 微服务。 适用于容器化 .NET 应用程序的体系结构 | Microsoft Docs](https://docs.microsoft.com/zh-cn/dotnet/architecture/microservices/)
 
+* 领域模型与事务脚本
+* 通用语言,界限上下文
+* 实体与值对象
+* 聚合与聚合根
+* 领域服务与应用服务
+* 领域事件(MediatR)与集成事件(RabbitMQ)
+* 充血模型与贫血模型 
+
 ## ABP vNext
 
 
