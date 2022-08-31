@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "EFCORE To Docker": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53161;http://localhost:53162"
+    }
+  }
+}

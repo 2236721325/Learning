@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83CB5FB2-C1F5-4CC1-BC1F-99B07CD0AD11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First_API", "First_API\First_API.csproj", "{39C7E605-2C6F-4570-9FCD-73A52F5BE33C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secord_API", "Secord_API\Secord_API.csproj", "{DE04675E-5682-44FD-918F-8776BC91D516}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Shared", "..\..\..\提高效率的类库项目\API_Shared\API_Shared\API_Shared.csproj", "{DD4478FC-F4FA-48D6-8096-4F7F6FB431F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "使用Cap简化Rabbmitmq", "使用Cap简化\使用Cap简化Rabbmitmq.csproj", "{26B18118-5693-49DD-A20E-9E9E3A34B82C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "学习Cap", "学习Cap\学习Cap.csproj", "{BAACC8B9-DF20-4A48-AF73-06F050968F8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "完整微服务架构搭建", "完整微服务架构搭建", "{57A83E17-0442-4E8E-96D9-1315596F8FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C7E605-2C6F-4570-9FCD-73A52F5BE33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C7E605-2C6F-4570-9FCD-73A52F5BE33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C7E605-2C6F-4570-9FCD-73A52F5BE33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C7E605-2C6F-4570-9FCD-73A52F5BE33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE04675E-5682-44FD-918F-8776BC91D516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE04675E-5682-44FD-918F-8776BC91D516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE04675E-5682-44FD-918F-8776BC91D516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE04675E-5682-44FD-918F-8776BC91D516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4478FC-F4FA-48D6-8096-4F7F6FB431F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4478FC-F4FA-48D6-8096-4F7F6FB431F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4478FC-F4FA-48D6-8096-4F7F6FB431F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4478FC-F4FA-48D6-8096-4F7F6FB431F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B18118-5693-49DD-A20E-9E9E3A34B82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B18118-5693-49DD-A20E-9E9E3A34B82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B18118-5693-49DD-A20E-9E9E3A34B82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B18118-5693-49DD-A20E-9E9E3A34B82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAACC8B9-DF20-4A48-AF73-06F050968F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAACC8B9-DF20-4A48-AF73-06F050968F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAACC8B9-DF20-4A48-AF73-06F050968F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAACC8B9-DF20-4A48-AF73-06F050968F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39C7E605-2C6F-4570-9FCD-73A52F5BE33C} = {83CB5FB2-C1F5-4CC1-BC1F-99B07CD0AD11}
+		{DE04675E-5682-44FD-918F-8776BC91D516} = {83CB5FB2-C1F5-4CC1-BC1F-99B07CD0AD11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D58143AB-AC4E-4D5E-BA30-6780BB2421A6}
+	EndGlobalSection
+EndGlobal

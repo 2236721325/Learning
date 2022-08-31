@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WebAPI"
+    "\\Shared",
+    "\\Shared\\UnitOfWork",
+    "\\WebAPI\\Docker",
+    "\\WebAPI\\EFCORE To Docker",
+    "\\WebAPI\\Identity框架"
   ],
-  "SelectedNode": "\\WebAPI\\WebAPI.sln",
+  "SelectedNode": "\\Shared\\Shared.sln",
   "PreviewInSolutionExplorer": false
 }

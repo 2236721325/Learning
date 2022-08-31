@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "GGX6ueJl7tHaIZl1VWX2EEmc+Lmipt83dNJ3c+rom7A=",
-  "Source": "JWTLearn",
-  "BasePath": "_content/JWTLearn",
+  "Hash": "h86zJsLjQhh46WXv9Wvu9ar9cIE8yiYdMYlsMj3RMbU=",
+  "Source": "JWTLearn(身份验证 权限验证)",
+  "BasePath": "_content/JWTLearn(身份验证 权限验证)",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

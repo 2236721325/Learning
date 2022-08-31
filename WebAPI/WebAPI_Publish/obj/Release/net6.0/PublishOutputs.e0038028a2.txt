@@ -1,0 +1,12 @@
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\Dockerfile
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\WebAPI_Publish.exe
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\WebAPI_Publish.dll
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\WebAPI_Publish.deps.json
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\WebAPI_Publish.runtimeconfig.json
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\WebAPI_Publish.pdb
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Coding\Learning\WebAPI\WebAPI_Publish\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

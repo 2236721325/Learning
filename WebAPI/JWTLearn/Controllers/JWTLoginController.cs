@@ -20,7 +20,7 @@ namespace JWTLearn.Controllers
         //仅仅为了模拟演示
         //实际使用最好对其进行封装
         [HttpPost]
-        public ActionResult<string> Login(string userName, string userPwd)
+        public ActionResult<string> Login(string userName, string userPwd="s")
         {
             if (userName != "wyh" || userPwd != "wyh")
             {

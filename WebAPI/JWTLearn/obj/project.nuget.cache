@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wmmeqcZeHhyZwFp12wJ+laQITeBV0U+cPEMRkmGbVjYJ4ixYirXaEMB/1iAPRKZHSUNOiRv3SiQoTn8E99L4fA==",
+  "dgSpecHash": "P9cpjXcxWlPkyzUsY8vo2ZgtdE1SOFHZih+TyKMelri1cHDLi/s19DZM88jqmltPFZByDtZ9BzOtE3I3LTl5wA==",
   "success": true,
   "projectFilePath": "D:\\Coding\\Learning\\WebAPI\\JWTLearn\\JWTLearn(身份验证 权限验证).csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,12 @@
+D:\Coding\Learning\WebAPI\UserManagement.Domain\bin\Debug\net6.0\UserManagement.Domain.deps.json
+D:\Coding\Learning\WebAPI\UserManagement.Domain\bin\Debug\net6.0\UserManagement.Domain.dll
+D:\Coding\Learning\WebAPI\UserManagement.Domain\bin\Debug\net6.0\UserManagement.Domain.pdb
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.csproj.AssemblyReference.cache
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.AssemblyInfoInputs.cache
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.AssemblyInfo.cs
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.dll
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\refint\UserManagement.Domain.dll
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.pdb
+D:\Coding\Learning\WebAPI\UserManagement.Domain\obj\Debug\net6.0\ref\UserManagement.Domain.dll

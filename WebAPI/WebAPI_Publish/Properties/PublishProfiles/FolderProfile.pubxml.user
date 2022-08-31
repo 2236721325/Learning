@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Administrator\Desktop\API_docker</_PublishTargetUrl>
+    <History>True|2022-08-23T05:57:32.9559703Z;True|2022-08-23T13:55:39.9459750+08:00;True|2022-08-23T13:55:05.5879205+08:00;True|2022-08-23T13:39:23.8676667+08:00;True|2022-08-23T13:24:48.9466552+08:00;True|2022-08-23T12:46:40.0199085+08:00;True|2022-08-23T12:19:51.5143652+08:00;True|2022-08-23T11:31:24.2766148+08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".dockerignore">
+      <publishTime>08/23/2022 11:23:42</publishTime>
+    </File>
+    <File Include="Dockerfile">
+      <publishTime>08/23/2022 13:21:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
