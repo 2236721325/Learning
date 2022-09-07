@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpDDDLearn.HttpApi.Host", "AbpDDDLearn.HttpApi.Host\AbpDDDLearn.HttpApi.Host.csproj", "{D8E1F6EB-930B-4525-9862-99AE097796D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpDDDLearn.Domain", "AbpDDDLearn.Domain\AbpDDDLearn.Domain.csproj", "{AB9567C6-B28B-4BF4-A296-9235D2EABDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpDDDLearn.Domain.Shared", "AbpDDDLearn.Domain.Shared\AbpDDDLearn.Domain.Shared.csproj", "{B6531C67-E817-49E0-BFFD-5CCA8911F134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpDDDLearn.Application.Contracts", "AbpDDDLearn.Application.Contracts\AbpDDDLearn.Application.Contracts.csproj", "{5612493C-FBB1-42C8-8B9D-B0EB7258BF5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpDDDLearn.Application", "AbpDDDLearn.Application\AbpDDDLearn.Application.csproj", "{EC9D2269-CB43-4A95-BDE0-4410F2A0F79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpDDDLearn.EntityFrameworkCore", "AbpDDDLearn.EntityFrameworkCore\AbpDDDLearn.EntityFrameworkCore.csproj", "{E3CCE19D-1860-4B4F-A361-3C8728F86B77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E1F6EB-930B-4525-9862-99AE097796D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E1F6EB-930B-4525-9862-99AE097796D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E1F6EB-930B-4525-9862-99AE097796D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E1F6EB-930B-4525-9862-99AE097796D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9567C6-B28B-4BF4-A296-9235D2EABDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9567C6-B28B-4BF4-A296-9235D2EABDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9567C6-B28B-4BF4-A296-9235D2EABDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9567C6-B28B-4BF4-A296-9235D2EABDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6531C67-E817-49E0-BFFD-5CCA8911F134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6531C67-E817-49E0-BFFD-5CCA8911F134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6531C67-E817-49E0-BFFD-5CCA8911F134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6531C67-E817-49E0-BFFD-5CCA8911F134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5612493C-FBB1-42C8-8B9D-B0EB7258BF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5612493C-FBB1-42C8-8B9D-B0EB7258BF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5612493C-FBB1-42C8-8B9D-B0EB7258BF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5612493C-FBB1-42C8-8B9D-B0EB7258BF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9D2269-CB43-4A95-BDE0-4410F2A0F79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9D2269-CB43-4A95-BDE0-4410F2A0F79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9D2269-CB43-4A95-BDE0-4410F2A0F79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9D2269-CB43-4A95-BDE0-4410F2A0F79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CCE19D-1860-4B4F-A361-3C8728F86B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CCE19D-1860-4B4F-A361-3C8728F86B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CCE19D-1860-4B4F-A361-3C8728F86B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CCE19D-1860-4B4F-A361-3C8728F86B77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2BEFB19-0113-44E5-A1E6-58D2B7A72E96}
+	EndGlobalSection
+EndGlobal

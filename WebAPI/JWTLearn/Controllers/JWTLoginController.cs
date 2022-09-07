@@ -32,7 +32,8 @@ namespace JWTLearn.Controllers
             {
                 new Claim(ClaimTypes.NameIdentifier, "1"),
                 new Claim(ClaimTypes.Name,"wyh"),
-                new Claim(ClaimTypes.Role,"管理员")
+                new Claim(ClaimTypes.Role,"管理员"),
+                new Claim(ClaimTypes.Role,"王耀华")
             };
 
             DateTime expirationTime = DateTime.Now.AddHours(jwtSettings.ExpirationHour);

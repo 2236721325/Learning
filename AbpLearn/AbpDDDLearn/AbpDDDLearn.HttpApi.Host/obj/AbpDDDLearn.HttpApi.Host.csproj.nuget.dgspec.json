@@ -1,0 +1,451 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.HttpApi.Host\\AbpDDDLearn.HttpApi.Host.csproj": {}
+  },
+  "projects": {
+    "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application.Contracts\\AbpDDDLearn.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application.Contracts\\AbpDDDLearn.Application.Contracts.csproj",
+        "projectName": "AbpDDDLearn.Application.Contracts",
+        "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application.Contracts\\AbpDDDLearn.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\CodingTool\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain.Shared\\AbpDDDLearn.Domain.Shared.csproj": {
+                "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain.Shared\\AbpDDDLearn.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.Ddd.Application.Contracts": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application\\AbpDDDLearn.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application\\AbpDDDLearn.Application.csproj",
+        "projectName": "AbpDDDLearn.Application",
+        "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application\\AbpDDDLearn.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\CodingTool\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application.Contracts\\AbpDDDLearn.Application.Contracts.csproj": {
+                "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application.Contracts\\AbpDDDLearn.Application.Contracts.csproj"
+              },
+              "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain\\AbpDDDLearn.Domain.csproj": {
+                "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain\\AbpDDDLearn.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Volo.Abp.Ddd.Application": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain.Shared\\AbpDDDLearn.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain.Shared\\AbpDDDLearn.Domain.Shared.csproj",
+        "projectName": "AbpDDDLearn.Domain.Shared",
+        "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain.Shared\\AbpDDDLearn.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\CodingTool\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain\\AbpDDDLearn.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain\\AbpDDDLearn.Domain.csproj",
+        "projectName": "AbpDDDLearn.Domain",
+        "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain\\AbpDDDLearn.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\CodingTool\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain.Shared\\AbpDDDLearn.Domain.Shared.csproj": {
+                "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain.Shared\\AbpDDDLearn.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.EntityFrameworkCore\\AbpDDDLearn.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.EntityFrameworkCore\\AbpDDDLearn.EntityFrameworkCore.csproj",
+        "projectName": "AbpDDDLearn.EntityFrameworkCore",
+        "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.EntityFrameworkCore\\AbpDDDLearn.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\CodingTool\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain\\AbpDDDLearn.Domain.csproj": {
+                "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Domain\\AbpDDDLearn.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.HttpApi.Host\\AbpDDDLearn.HttpApi.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.HttpApi.Host\\AbpDDDLearn.HttpApi.Host.csproj",
+        "projectName": "AbpDDDLearn.HttpApi.Host",
+        "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.HttpApi.Host\\AbpDDDLearn.HttpApi.Host.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.HttpApi.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\CodingTool\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application\\AbpDDDLearn.Application.csproj": {
+                "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.Application\\AbpDDDLearn.Application.csproj"
+              },
+              "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.EntityFrameworkCore\\AbpDDDLearn.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Coding\\Learning\\AbpLearn\\AbpDDDLearn\\AbpDDDLearn.EntityFrameworkCore\\AbpDDDLearn.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

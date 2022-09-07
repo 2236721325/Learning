@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oTF4yg0gvoHh4GhXbf82PiPC59IiuuFIu3FjpFjjupo=",
+  "Source": "AbpDDDLearn.HttpApi.Host",
+  "BasePath": "_content/AbpDDDLearn.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

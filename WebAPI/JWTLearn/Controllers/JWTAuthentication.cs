@@ -9,7 +9,7 @@ namespace JWTLearn.Controllers
     {
 
         
-        [Authorize(Roles ="管理员")]//请求的时候需要带上JWT返回的Token// 用Postman做测试
+        [Authorize(Roles ="王耀华")]//请求的时候需要带上JWT返回的Token// 用Postman做测试
         [HttpGet]
         public ActionResult ReturnIfLogin()
         {

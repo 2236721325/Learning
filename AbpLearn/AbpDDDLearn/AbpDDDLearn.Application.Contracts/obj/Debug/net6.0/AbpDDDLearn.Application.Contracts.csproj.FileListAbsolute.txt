@@ -1,0 +1,15 @@
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\bin\Debug\net6.0\AbpDDDLearn.Application.Contracts.deps.json
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\bin\Debug\net6.0\AbpDDDLearn.Application.Contracts.dll
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\bin\Debug\net6.0\AbpDDDLearn.Application.Contracts.pdb
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\bin\Debug\net6.0\AbpDDDLearn.Domain.Shared.dll
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\bin\Debug\net6.0\AbpDDDLearn.Domain.Shared.pdb
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\AbpDDDLearn.Application.Contracts.csproj.AssemblyReference.cache
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\AbpDDDLearn.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\AbpDDDLearn.Application.Contracts.AssemblyInfoInputs.cache
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\AbpDDDLearn.Application.Contracts.AssemblyInfo.cs
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\AbpDDDLearn.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\AbpDDDLearn.Application.Contracts.csproj.CopyComplete
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\AbpDDDLearn.Application.Contracts.dll
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\refint\AbpDDDLearn.Application.Contracts.dll
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\AbpDDDLearn.Application.Contracts.pdb
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Application.Contracts\obj\Debug\net6.0\ref\AbpDDDLearn.Application.Contracts.dll

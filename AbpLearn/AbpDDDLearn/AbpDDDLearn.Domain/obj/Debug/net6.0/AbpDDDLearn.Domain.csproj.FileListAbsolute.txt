@@ -1,0 +1,15 @@
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\bin\Debug\net6.0\AbpDDDLearn.Domain.deps.json
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\bin\Debug\net6.0\AbpDDDLearn.Domain.dll
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\bin\Debug\net6.0\AbpDDDLearn.Domain.pdb
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\bin\Debug\net6.0\AbpDDDLearn.Domain.Shared.dll
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\bin\Debug\net6.0\AbpDDDLearn.Domain.Shared.pdb
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\AbpDDDLearn.Domain.csproj.AssemblyReference.cache
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\AbpDDDLearn.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\AbpDDDLearn.Domain.AssemblyInfoInputs.cache
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\AbpDDDLearn.Domain.AssemblyInfo.cs
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\AbpDDDLearn.Domain.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\AbpDDDLearn.Domain.csproj.CopyComplete
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\AbpDDDLearn.Domain.dll
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\refint\AbpDDDLearn.Domain.dll
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\AbpDDDLearn.Domain.pdb
+D:\Coding\Learning\AbpLearn\AbpDDDLearn\AbpDDDLearn.Domain\obj\Debug\net6.0\ref\AbpDDDLearn.Domain.dll
