@@ -28,87 +28,123 @@ namespace T4CodeGenerator.T4Templates
         /// </summary>
         public virtual string TransformText()
         {
-            this.Write("\r\nnamespace T4CodeGenerator\r\n{\r\n    [ApiController]\r\n    [Route(\"api/[controller]" +
-                    "/[action]\")]\r\n    public class ");
+            this.Write("using Base.Shared.Dtos;\r\nusing Base.Shared.IControllers;\r\nusing Microsoft.AspNetC" +
+                    "ore.Mvc;\r\nusing ");
+            
+            #line 10 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".Dtos.");
+            
+            #line 10 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write("Dtos;\r\nusing ");
+            
+            #line 11 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".IServices;\r\nusing ");
             
             #line 12 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".Services;\r\n\r\nnamespace ");
+            
+            #line 14 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".Controllers\r\n{\r\n    [ApiController]\r\n    [Route(\"api/[controller]/[action]\")]\r\n " +
+                    "   public class ");
+            
+            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Controller : ControllerBase,\r\n        ICrudController<");
             
-            #line 13 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 19 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_idproperty.PropertyType.Name));
             
             #line default
             #line hidden
             this.Write(",");
             
-            #line 13 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 19 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Dto,");
             
-            #line 13 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 19 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("UpdateDto,\r\n            ");
             
-            #line 14 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 20 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
-            this.Write("CreateDto>\r\n    {\r\n        private readonly ");
+            this.Write("CreateDto>\r\n    {\r\n        private readonly I");
             
-            #line 16 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 22 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Service _I");
             
-            #line 16 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 22 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Service;\r\n\r\n        public ");
             
-            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 24 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Controller(I");
             
-            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 24 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Service i");
             
-            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 24 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Service)\r\n        {\r\n            _I");
             
-            #line 20 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 26 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Service = i");
             
-            #line 20 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 26 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
@@ -116,21 +152,21 @@ namespace T4CodeGenerator.T4Templates
             this.Write("Service;\r\n        }\r\n\r\n      \r\n\r\n        [HttpGet(\"{id}\")]\r\n        public async " +
                     "Task<ApiResult<");
             
-            #line 26 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 32 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("Dto>> Get(");
             
-            #line 26 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 32 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_idproperty.PropertyType.Name));
             
             #line default
             #line hidden
             this.Write(" id)\r\n        {\r\n            return await _I");
             
-            #line 28 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 34 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
@@ -138,30 +174,30 @@ namespace T4CodeGenerator.T4Templates
             this.Write("Service.GetAsync(id);\r\n        }\r\n\r\n        [HttpPost]\r\n        public async Task" +
                     "<ApiResult<PagedListDto<");
             
-            #line 32 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
-            
-            #line default
-            #line hidden
-            this.Write("Dto>>> GetPagedList(GetPagedListDto getPaged)\r\n        {\r\n            return awai" +
-                    "t _I");
-            
-            #line 34 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
-            
-            #line default
-            #line hidden
-            this.Write("Service.GetPagedListAsync(getPaged);\r\n        }\r\n\r\n        [HttpPost]\r\n        pu" +
-                    "blic async Task<ApiResult> Insert(");
-            
             #line 38 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write("Dto>>> GetPagedList(PagedSearchDto search)\r\n        {\r\n            return await _" +
+                    "I");
+            
+            #line 40 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write("Service.GetPagedListAsync(search);\r\n        }\r\n\r\n        [HttpPost]\r\n        publ" +
+                    "ic async Task<ApiResult> Insert(");
+            
+            #line 44 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("CreateDto dto)\r\n        {\r\n            return await _I");
             
-            #line 40 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 46 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
@@ -169,14 +205,14 @@ namespace T4CodeGenerator.T4Templates
             this.Write("Service.InsertAsync(dto);\r\n        }\r\n\r\n        [HttpPut]\r\n        public async T" +
                     "ask<ApiResult> Update(");
             
-            #line 44 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 50 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
             this.Write("UpdateDto dto)\r\n        {\r\n            return await _I");
             
-            #line 46 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 52 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
@@ -184,14 +220,14 @@ namespace T4CodeGenerator.T4Templates
             this.Write("Service.UpdateAsync(dto);\r\n        }\r\n\r\n        [HttpDelete(\"{id}\")]\r\n        pub" +
                     "lic async Task<ApiResult> Delete(");
             
-            #line 50 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 56 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_idproperty.PropertyType.Name));
             
             #line default
             #line hidden
             this.Write(" id)\r\n        {\r\n            return await _I");
             
-            #line 52 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
+            #line 58 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\ApiControllerGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default

@@ -43,6 +43,10 @@
       <Generator>TextTemplatingFilePreprocessor</Generator>
       <LastGenOutput>UpdateDtoGenerator.cs</LastGenOutput>
     </None>
+    <None Update="T4Templates\ObjectMaps\AutoMapProfileGenerator.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>AutoMapProfileGenerator.cs</LastGenOutput>
+    </None>
     <None Update="T4Templates\Services\IServiceGenerator.tt">
       <Generator>TextTemplatingFilePreprocessor</Generator>
       <LastGenOutput>IServiceGenerator.cs</LastGenOutput>
@@ -87,6 +91,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>UpdateDtoGenerator.tt</DependentUpon>
+    </Compile>
+    <Compile Update="T4Templates\ObjectMaps\AutoMapProfileGenerator.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AutoMapProfileGenerator.tt</DependentUpon>
     </Compile>
     <Compile Update="T4Templates\Services\IServiceGenerator.cs">
       <DesignTime>True</DesignTime>

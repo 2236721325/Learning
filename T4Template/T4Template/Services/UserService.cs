@@ -1,10 +1,15 @@
+using AutoMapper;
+using Base.Shared;
+using Base.Shared.Dtos;
+using Base.Shared.Services;
 using T4Template.Datas;
 using T4Template.Dtos.UserDtos;
 using T4Template.IServices;
+using T4Template.Models;
 
 namespace T4Template.Services
 {
-    public class UserService : CrudService<User, Guid,
+    public class UserService : CrudService<User, Guid, 
         UserDto, UserUpdateDto, UserCreateDto>,
         IUserService,
         ITransientDependency
@@ -15,12 +20,12 @@ namespace T4Template.Services
 
         public override async Task<ApiResult> CanInsertAsync(UserCreateDto dto)
         {
-
+            return await Task.FromResult(ApiResult.Ok());          
         }
 
         public override async Task<ApiResult> CanUpdateAsync(UserUpdateDto dto)
         {
-
+            return await Task.FromResult(ApiResult.Ok());          
         }
     }
 }

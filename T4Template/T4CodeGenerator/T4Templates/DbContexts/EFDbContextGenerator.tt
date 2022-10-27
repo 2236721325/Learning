@@ -3,9 +3,11 @@
 <#@ import namespace="System.Linq" #>
 <#@ import namespace="System.Text" #>
 <#@ import namespace="System.Collections.Generic" #>
-
 using Microsoft.EntityFrameworkCore;
-namespace T4CodeGenerator
+using <#=_assemblyName#>.Models;
+
+
+namespace <#=_assemblyName#>.Datas
 {
     public class MyDbContext : DbContext
     {

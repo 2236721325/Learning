@@ -1,23 +1,26 @@
+using Base.Shared.Dtos;
 using Base.Shared.IControllers;
 using Microsoft.AspNetCore.Mvc;
-
+using T4Template.Dtos.HelloDtos;
+using T4Template.IServices;
+using T4Template.Services;
 
 namespace T4Template.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]
     public class HelloController : ControllerBase,
-        ICrudController<Guid, HelloDto, HelloUpdateDto,
+        ICrudController<Guid,HelloDto,HelloUpdateDto,
             HelloCreateDto>
     {
-        private readonly HelloService _IHelloService;
+        private readonly IHelloService _IHelloService;
 
         public HelloController(IHelloService iHelloService)
         {
             _IHelloService = iHelloService;
         }
 
-
+      
 
         [HttpGet("{id}")]
         public async Task<ApiResult<HelloDto>> Get(Guid id)
@@ -26,9 +29,9 @@ namespace T4Template.Controllers
         }
 
         [HttpPost]
-        public async Task<ApiResult<PagedListDto<HelloDto>>> GetPagedList(GetPagedListDto getPaged)
+        public async Task<ApiResult<PagedListDto<HelloDto>>> GetPagedList(PagedSearchDto search)
         {
-            return await _IHelloService.GetPagedListAsync(getPaged);
+            return await _IHelloService.GetPagedListAsync(search);
         }
 
         [HttpPost]

@@ -4,8 +4,14 @@
 <#@ import namespace="System.Text" #>
 <#@ import namespace="System.Collections.Generic" #>
 <#@ output extension=".txt" #>
+using Base.Shared.Dtos;
+using Base.Shared.IControllers;
+using Microsoft.AspNetCore.Mvc;
+using <#=_assemblyName#>.Dtos.<#=_type.Name#>Dtos;
+using <#=_assemblyName#>.IServices;
+using <#=_assemblyName#>.Services;
 
-namespace T4CodeGenerator
+namespace <#=_assemblyName#>.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]
@@ -13,7 +19,7 @@ namespace T4CodeGenerator
         ICrudController<<#=_idproperty.PropertyType.Name#>,<#=_type.Name#>Dto,<#=_type.Name#>UpdateDto,
             <#=_type.Name#>CreateDto>
     {
-        private readonly <#=_type.Name#>Service _I<#=_type.Name#>Service;
+        private readonly I<#=_type.Name#>Service _I<#=_type.Name#>Service;
 
         public <#=_type.Name#>Controller(I<#=_type.Name#>Service i<#=_type.Name#>Service)
         {
@@ -29,9 +35,9 @@ namespace T4CodeGenerator
         }
 
         [HttpPost]
-        public async Task<ApiResult<PagedListDto<<#=_type.Name#>Dto>>> GetPagedList(GetPagedListDto getPaged)
+        public async Task<ApiResult<PagedListDto<<#=_type.Name#>Dto>>> GetPagedList(PagedSearchDto search)
         {
-            return await _I<#=_type.Name#>Service.GetPagedListAsync(getPaged);
+            return await _I<#=_type.Name#>Service.GetPagedListAsync(search);
         }
 
         [HttpPost]

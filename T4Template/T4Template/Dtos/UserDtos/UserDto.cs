@@ -4,8 +4,8 @@ namespace T4Template.Dtos.UserDtos
 {
     public class UserDto
     {
-        public string Account { get; set; }
-        public string Name { get; set; }
+        public String Account { get; set; }
+        public String Name { get; set; }
         public Guid Id { get; set; }
     }
 }

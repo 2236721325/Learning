@@ -28,58 +28,101 @@ namespace T4CodeGenerator.T4Templates.Services
         /// </summary>
         public virtual string TransformText()
         {
-            this.Write("\r\nnamespace T4CodeGenerator\r\n{\r\n    public class ");
-            
-            #line 9 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
-            
-            #line default
-            #line hidden
-            this.Write("Service : CrudService<");
-            
-            #line 9 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
-            
-            #line default
-            #line hidden
-            this.Write(", ");
-            
-            #line 9 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(_idproperty.PropertyType.Name));
-            
-            #line default
-            #line hidden
-            this.Write(", \r\n        ");
+            this.Write("using AutoMapper;\r\nusing Base.Shared;\r\nusing Base.Shared.Dtos;\r\nusing Base.Shared" +
+                    ".Services;\r\nusing ");
             
             #line 10 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
             
             #line default
             #line hidden
-            this.Write("Dto, ");
+            this.Write(".Datas;\r\nusing ");
             
-            #line 10 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
-            
-            #line default
-            #line hidden
-            this.Write("UpdateDto, ");
-            
-            #line 10 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
-            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            #line 11 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
             
             #line default
             #line hidden
-            this.Write("CreateDto>,\r\n        I");
+            this.Write(".Dtos.");
             
             #line 11 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
+            this.Write("Dtos;\r\nusing ");
+            
+            #line 12 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".IServices;\r\nusing ");
+            
+            #line 13 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".Models;\r\n\r\nnamespace ");
+            
+            #line 15 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".Services\r\n{\r\n    public class ");
+            
+            #line 17 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write("Service : CrudService<");
+            
+            #line 17 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write(", ");
+            
+            #line 17 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_idproperty.PropertyType.Name));
+            
+            #line default
+            #line hidden
+            this.Write(", \r\n        ");
+            
+            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write("Dto, ");
+            
+            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write("UpdateDto, ");
+            
+            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write("CreateDto>,\r\n        I");
+            
+            #line 19 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
             this.Write("Service,\r\n        ITransientDependency\r\n    {\r\n        public ");
             
-            #line 14 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            #line 22 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
@@ -87,20 +130,22 @@ namespace T4CodeGenerator.T4Templates.Services
             this.Write("Service(MyDbContext dbContext, IMapper mapper) : base(dbContext, mapper)\r\n       " +
                     " {\r\n        }\r\n\r\n        public override async Task<ApiResult> CanInsertAsync(");
             
-            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            #line 26 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
-            this.Write("CreateDto dto)\r\n        {\r\n          \r\n        }\r\n\r\n        public override async" +
-                    " Task<ApiResult> CanUpdateAsync(");
+            this.Write("CreateDto dto)\r\n        {\r\n            return await Task.FromResult(ApiResult.Ok(" +
+                    "));          \r\n        }\r\n\r\n        public override async Task<ApiResult> CanUpd" +
+                    "ateAsync(");
             
-            #line 23 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
+            #line 31 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Services\ServiceGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
             
             #line default
             #line hidden
-            this.Write("UpdateDto dto)\r\n        {\r\n          \r\n        }\r\n    }\r\n}");
+            this.Write("UpdateDto dto)\r\n        {\r\n            return await Task.FromResult(ApiResult.Ok(" +
+                    "));          \r\n        }\r\n    }\r\n}");
             return this.GenerationEnvironment.ToString();
         }
     }

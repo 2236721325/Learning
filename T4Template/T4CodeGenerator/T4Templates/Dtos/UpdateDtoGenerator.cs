@@ -28,7 +28,21 @@ namespace T4CodeGenerator.T4Templates.Dtos
         /// </summary>
         public virtual string TransformText()
         {
-            this.Write("using System;\r\n\r\nnamespace T4CodeGenerator\r\n{\r\n    public class ");
+            this.Write("using System;\r\n\r\nnamespace ");
+            
+            #line 8 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Dtos\UpdateDtoGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".Dtos.");
+            
+            #line 8 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Dtos\UpdateDtoGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));
+            
+            #line default
+            #line hidden
+            this.Write("Dtos\r\n{\r\n    public class ");
             
             #line 10 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\Dtos\UpdateDtoGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(_type.Name));

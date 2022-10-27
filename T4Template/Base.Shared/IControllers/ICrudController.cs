@@ -9,10 +9,10 @@ namespace Base.Shared.IControllers
 {
     public interface ICrudController<TKey, TEnityDto, TUpdateDto, TCreateDto>
     {
-        Task<ApiResult<TEnityDto>> GetAsync(TKey id);
-        Task<ApiResult<PagedListDto<TEnityDto>>> GetPagedListAsync(PagedSearchDto getPaged);
-        Task<ApiResult> InsertAsync(TCreateDto create);
-        Task<ApiResult> UpdateAsync(TUpdateDto update);
-        Task<ApiResult> DeleteAsync(TKey id);
+        Task<ApiResult<TEnityDto>> Get(TKey id);
+        Task<ApiResult<PagedListDto<TEnityDto>>> GetPagedList(PagedSearchDto getPaged);
+        Task<ApiResult> Insert(TCreateDto create);
+        Task<ApiResult> Update(TUpdateDto update);
+        Task<ApiResult> Delete(TKey id);
     }
 }

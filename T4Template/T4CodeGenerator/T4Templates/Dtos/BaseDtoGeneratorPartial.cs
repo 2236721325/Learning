@@ -10,10 +10,12 @@ namespace T4CodeGenerator.T4Templates.Dtos
     {
         private readonly Type _type;
         private readonly List<PropertyInfo> _propertyInfos;
+        private readonly string _assemblyName;
         public BaseDtoGenerator(Type type)
         {
             _type = type;
             _propertyInfos = type.GetProperties().ToList();
+            _assemblyName = Assembly.GetEntryAssembly().GetName().Name;
         }
     }
 }

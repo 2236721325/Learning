@@ -27,11 +27,13 @@ namespace T4Template
             //DtoGenerator.GenerateCreateDto(typeof(BaseEntityAsync<,>));
             //DtoGenerator.GenerateUpdateDto(typeof(BaseEntityAsync<,>));
             //DtoGenerator.GenerateBaseDto(typeof(BaseEntityAsync<,>));
+            Tool.ProjectType = ProjectTypeEnum.Console;
             DtoGenerator.GenerateAllDtos(typeof(BaseEntity<>));
             DbContextGenerator.GeneratorEFContext(typeof(BaseEntity<>));
             BaseServiceGenerator.GeneratorIService(typeof(BaseEntity<>));
             BaseServiceGenerator.GeneratorService(typeof(BaseEntity<>));
             ControllerGenerator.GeneratorCrudController(typeof(BaseEntity<>));
+            ObjectMapGenerator.GeneratorAutoMapProfile(typeof(BaseEntity<>));
 
 
         }

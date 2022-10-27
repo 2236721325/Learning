@@ -28,10 +28,23 @@ namespace T4CodeGenerator.T4Templates.DbContexts
         /// </summary>
         public virtual string TransformText()
         {
-            this.Write("\r\nusing Microsoft.EntityFrameworkCore;\r\nnamespace T4CodeGenerator\r\n{\r\n    public " +
-                    "class MyDbContext : DbContext\r\n    {\r\n");
+            this.Write("using Microsoft.EntityFrameworkCore;\r\nusing ");
             
-            #line 12 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
+            #line 7 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".Models;\r\n\r\n\r\nnamespace ");
+            
+            #line 10 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(_assemblyName));
+            
+            #line default
+            #line hidden
+            this.Write(".Datas\r\n{\r\n    public class MyDbContext : DbContext\r\n    {\r\n");
+            
+            #line 14 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
 
 foreach(var type in _modelTypes)
 {
@@ -41,21 +54,21 @@ foreach(var type in _modelTypes)
             #line hidden
             this.Write("        public DbSet<");
             
-            #line 16 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
+            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(type.Name));
             
             #line default
             #line hidden
             this.Write("> ");
             
-            #line 16 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
+            #line 18 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(type.Name));
             
             #line default
             #line hidden
             this.Write("s { get; set; }\r\n");
             
-            #line 17 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
+            #line 19 "D:\Coding\Learning\T4Template\T4CodeGenerator\T4Templates\DbContexts\EFDbContextGenerator.tt"
 
 }
 

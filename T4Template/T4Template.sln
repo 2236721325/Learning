@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T4CodeGenerator", "T4CodeGe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.Shared", "Base.Shared\Base.Shared.csproj", "{6ED6ABCB-6E41-4D00-BDFD-3C26C1E057B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{76968595-554D-4838-A249-868E0A01F74B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6ED6ABCB-6E41-4D00-BDFD-3C26C1E057B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ED6ABCB-6E41-4D00-BDFD-3C26C1E057B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ED6ABCB-6E41-4D00-BDFD-3C26C1E057B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76968595-554D-4838-A249-868E0A01F74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76968595-554D-4838-A249-868E0A01F74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76968595-554D-4838-A249-868E0A01F74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76968595-554D-4838-A249-868E0A01F74B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
