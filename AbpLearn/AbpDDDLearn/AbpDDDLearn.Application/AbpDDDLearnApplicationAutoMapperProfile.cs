@@ -11,6 +11,7 @@ namespace AbpDDDLearn.Application
             CreateMap<CreateUserDto, User>();
             CreateMap<UpdateUserDto, User>();
             CreateMap<User, UserDto>();
+            
         }
     }
 }

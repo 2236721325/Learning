@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RUswCOCZRfOLXPsjvXhuLtkR01hnOe44Wci+Hzri36M=",
+  "Source": "HelloNginx",
+  "BasePath": "_content/HelloNginx",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,14 @@
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\SecondService.deps.json
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\SecondService.runtimeconfig.json
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\appsettings.Development.json
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\appsettings.json
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\SecondService.exe
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\SecondService.dll
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\Microsoft.OpenApi.dll
+D:\Coding\Learning\DaprLearns\DaprLearns\bin\Debug\SecondService.pdb
+D:\Coding\Learning\DaprLearns\DaprLearns\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\Coding\Learning\DaprLearns\DaprLearns\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Coding\Learning\DaprLearns\DaprLearns\obj\Debug\docker-compose.dcproj.CopyComplete

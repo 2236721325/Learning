@@ -8,11 +8,12 @@ namespace EmptyWebAbp.Models
         public string Name { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
+
         public void CreateGuid(Guid id)
         {
             if(Id!=Guid.Empty)
             {
-                throw new Exception("实体Guid已存在，不可改变");
+                throw new Exception("实体Guid已存在!");
             }
             Id = id;
         }

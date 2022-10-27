@@ -1,0 +1,10 @@
+D:\Coding\Learning\效率神器\SourceGenerater\bin\Debug\netstandard2.0\SourceGenerater.deps.json
+D:\Coding\Learning\效率神器\SourceGenerater\bin\Debug\netstandard2.0\SourceGenerater.dll
+D:\Coding\Learning\效率神器\SourceGenerater\bin\Debug\netstandard2.0\SourceGenerater.pdb
+D:\Coding\Learning\效率神器\SourceGenerater\obj\Debug\netstandard2.0\SourceGenerater.csproj.AssemblyReference.cache
+D:\Coding\Learning\效率神器\SourceGenerater\obj\Debug\netstandard2.0\SourceGenerater.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\效率神器\SourceGenerater\obj\Debug\netstandard2.0\SourceGenerater.AssemblyInfoInputs.cache
+D:\Coding\Learning\效率神器\SourceGenerater\obj\Debug\netstandard2.0\SourceGenerater.AssemblyInfo.cs
+D:\Coding\Learning\效率神器\SourceGenerater\obj\Debug\netstandard2.0\SourceGenerater.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\效率神器\SourceGenerater\obj\Debug\netstandard2.0\SourceGenerater.dll
+D:\Coding\Learning\效率神器\SourceGenerater\obj\Debug\netstandard2.0\SourceGenerater.pdb

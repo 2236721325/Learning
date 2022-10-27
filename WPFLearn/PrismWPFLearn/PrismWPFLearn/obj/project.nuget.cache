@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "V+orukbOpsd96A/b7oc2MpPX2//RaxPuTFIDPhnh6k17g/If9eXkBF9dHGOSa1+1dCOQNibvk6Py6U3SEEr3CQ==",
+  "dgSpecHash": "OzQfid6eY1zMNo5iMYwEpwKDCY7PuYD+xpkTIhuVh8ZOG1gWMH/LxVCiG/7ZjVlR/2R1s76RFRU9tor1b0S3PA==",
   "success": true,
   "projectFilePath": "D:\\Coding\\Learning\\WPFLearn\\PrismWPFLearn\\PrismWPFLearn\\PrismWPFLearn.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",

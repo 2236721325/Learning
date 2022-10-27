@@ -15,6 +15,7 @@ using Volo.Abp.EventBus.RabbitMq;
 using Volo.Abp.RabbitMQ;
 using Volo.Abp.Caching.StackExchangeRedis;
 using Microsoft.Extensions.Caching.StackExchangeRedis;
+using Volo.Abp.Emailing;
 
 namespace EmptyWebAbp
 {
@@ -26,6 +27,7 @@ namespace EmptyWebAbp
     [DependsOn(typeof(AbpCachingModule))]
     [DependsOn(typeof(AbpCachingStackExchangeRedisModule))]
     [DependsOn(typeof(AbpEventBusRabbitMqModule))]
+    [DependsOn(typeof(AbpEmailingModule))]
 
     public class AppModule : AbpModule
     {
@@ -36,7 +38,6 @@ namespace EmptyWebAbp
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "Test API", Version = "v1" });
                 options.DocInclusionPredicate((docName, description) => true);
             });
-
 
             context.Services.AddAbpDbContext<MyDbContext>(options =>
             {

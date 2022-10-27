@@ -7,6 +7,5 @@ namespace IdentityServer.Controllers
     public class IdentityController : ControllerBase
     {
 
-
     }
 }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KU1lmIsSEVsfEv6d2aj+oEPiBraZ0/tKCAgrZGh3y2DO9+seCNpONAGDVudoWDJMv2KVE5UkszsZ6UnZTcRB1w==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\Learning\\T4Template\\T4CodeGenerator\\T4CodeGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LJcrt/usNBf+FNnpWsquxjOgIiciXStWmDBoh5LEIpBu3ZDXGgO8qohrL0alCzPdqx6WBCbfuhFBuKWVL0Gxkg==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\Learning\\WebAPI\\AutofacModule\\AutofacModule.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -40,6 +40,7 @@
           "Volo.Abp.Autofac": "5.3.4",
           "Volo.Abp.Caching": "5.3.4",
           "Volo.Abp.Caching.StackExchangeRedis": "5.3.4",
+          "Volo.Abp.Emailing": "5.3.4",
           "Volo.Abp.EntityFrameworkCore.SqlServer": "5.3.4",
           "Volo.Abp.EventBus.RabbitMQ": "5.3.4",
           "Volo.Abp.Swashbuckle": "5.3.4",
@@ -1308,6 +1309,17 @@
           "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
+      "Scriban/5.4.4": {
+        "runtime": {
+          "lib/net6.0/Scriban.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.4.4.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Scriban.dll": {}
+        }
+      },
       "StackExchange.Redis/2.2.4": {
         "dependencies": {
           "Pipelines.Sockets.Unofficial": "2.2.0",
@@ -1934,6 +1946,20 @@
           "lib/netstandard2.1/Volo.Abp.AutoMapper.dll": {}
         }
       },
+      "Volo.Abp.BackgroundJobs.Abstractions/5.3.4": {
+        "dependencies": {
+          "Volo.Abp.Json": "5.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.dll": {
+            "assemblyVersion": "5.3.4.0",
+            "fileVersion": "5.3.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.dll": {}
+        }
+      },
       "Volo.Abp.BackgroundWorkers/5.3.4": {
         "dependencies": {
           "Volo.Abp.Threading": "5.3.4"
@@ -2118,6 +2144,24 @@
         },
         "compile": {
           "lib/netstandard2.0/Volo.Abp.DistributedLocking.Abstractions.dll": {}
+        }
+      },
+      "Volo.Abp.Emailing/5.3.4": {
+        "dependencies": {
+          "Volo.Abp.BackgroundJobs.Abstractions": "5.3.4",
+          "Volo.Abp.Localization": "5.3.4",
+          "Volo.Abp.Settings": "5.3.4",
+          "Volo.Abp.TextTemplating": "5.3.4",
+          "Volo.Abp.VirtualFileSystem": "5.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Emailing.dll": {
+            "assemblyVersion": "5.3.4.0",
+            "fileVersion": "5.3.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Emailing.dll": {}
         }
       },
       "Volo.Abp.EntityFrameworkCore/5.3.4": {
@@ -2486,6 +2530,50 @@
         },
         "compile": {
           "lib/net6.0/Volo.Abp.Swashbuckle.dll": {}
+        }
+      },
+      "Volo.Abp.TextTemplating/5.3.4": {
+        "dependencies": {
+          "Volo.Abp.TextTemplating.Scriban": "5.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.dll": {
+            "assemblyVersion": "5.3.4.0",
+            "fileVersion": "5.3.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.dll": {}
+        }
+      },
+      "Volo.Abp.TextTemplating.Core/5.3.4": {
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "5.3.4",
+          "Volo.Abp.VirtualFileSystem": "5.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.Core.dll": {
+            "assemblyVersion": "5.3.4.0",
+            "fileVersion": "5.3.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.Core.dll": {}
+        }
+      },
+      "Volo.Abp.TextTemplating.Scriban/5.3.4": {
+        "dependencies": {
+          "Scriban": "5.4.4",
+          "Volo.Abp.TextTemplating.Core": "5.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.Scriban.dll": {
+            "assemblyVersion": "5.3.4.0",
+            "fileVersion": "5.3.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.TextTemplating.Scriban.dll": {}
         }
       },
       "Volo.Abp.Threading/5.3.4": {
@@ -4903,6 +4991,13 @@
       "path": "rabbitmq.client/6.3.0",
       "hashPath": "rabbitmq.client.6.3.0.nupkg.sha512"
     },
+    "Scriban/5.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-olJJ2zAZg+Rc0SAT/gmcMcWXGTq6jZI760Fk4sA6xf43rbJTaZQxoO7TbQEY0CJ3jwJ0XUEoupaLdnWMU6iClQ==",
+      "path": "scriban/5.4.4",
+      "hashPath": "scriban.5.4.4.nupkg.sha512"
+    },
     "StackExchange.Redis/2.2.4": {
       "type": "package",
       "serviceable": true,
@@ -5344,6 +5439,13 @@
       "path": "volo.abp.automapper/5.3.4",
       "hashPath": "volo.abp.automapper.5.3.4.nupkg.sha512"
     },
+    "Volo.Abp.BackgroundJobs.Abstractions/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o6xbcmXHrk5qHmvOnRLIQuo+8QjWp7rumr8Bo34iGMLGU0cHEoLHq+EvHAsKICqRfWpaj92ySZnuTtbuMfBKpw==",
+      "path": "volo.abp.backgroundjobs.abstractions/5.3.4",
+      "hashPath": "volo.abp.backgroundjobs.abstractions.5.3.4.nupkg.sha512"
+    },
     "Volo.Abp.BackgroundWorkers/5.3.4": {
       "type": "package",
       "serviceable": true,
@@ -5413,6 +5515,13 @@
       "sha512": "sha512-I/Rqx1j1siOV8abjHgznGh4B6SZzyO1VgMY2CdFzRwb85OKi3HlClq/ce2SP8Vs2mn8CVCTofUbr045jIlFR0Q==",
       "path": "volo.abp.distributedlocking.abstractions/5.3.4",
       "hashPath": "volo.abp.distributedlocking.abstractions.5.3.4.nupkg.sha512"
+    },
+    "Volo.Abp.Emailing/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K5Z9x2eRlCH5a5QrD4mKtWj5N6FQURpahouw5RchEeHv+IdDeQvs+8k93Pq3WLyoZikt20h0/w5/cfLpBFXoCw==",
+      "path": "volo.abp.emailing/5.3.4",
+      "hashPath": "volo.abp.emailing.5.3.4.nupkg.sha512"
     },
     "Volo.Abp.EntityFrameworkCore/5.3.4": {
       "type": "package",
@@ -5581,6 +5690,27 @@
       "sha512": "sha512-w4oygHaXmQGSmDH5TDmQROnLIo29IG2NwE5S21jfss2zf6dv0jD79soDb83Tyx9xVmek/Wfa3T0wiTZSd5n2/g==",
       "path": "volo.abp.swashbuckle/5.3.4",
       "hashPath": "volo.abp.swashbuckle.5.3.4.nupkg.sha512"
+    },
+    "Volo.Abp.TextTemplating/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bdAH0ZnScT7mhewYP7lfrFEbDA54IZyeooqX3KYbtlCT8alCwBv59y3R1JVnA1Zrs/MXO2B6GXTftG8LbYA/lw==",
+      "path": "volo.abp.texttemplating/5.3.4",
+      "hashPath": "volo.abp.texttemplating.5.3.4.nupkg.sha512"
+    },
+    "Volo.Abp.TextTemplating.Core/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7oyhx0Cc2licUgcYabpp5uXUCDqvTQ/6Q1zPIwte0Gtm3UITxFAsCjxEiaQukqOqSKNo5vV3W7I1+lqHI/AfAg==",
+      "path": "volo.abp.texttemplating.core/5.3.4",
+      "hashPath": "volo.abp.texttemplating.core.5.3.4.nupkg.sha512"
+    },
+    "Volo.Abp.TextTemplating.Scriban/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bLTNAy9aiHmtpXPSnD4CmznjJXcBExPOWs9o9gf32dZsm2TzBtH8Afzq8257K//7OtIvzxKQ66nPm8CvL2v+sw==",
+      "path": "volo.abp.texttemplating.scriban/5.3.4",
+      "hashPath": "volo.abp.texttemplating.scriban.5.3.4.nupkg.sha512"
     },
     "Volo.Abp.Threading/5.3.4": {
       "type": "package",

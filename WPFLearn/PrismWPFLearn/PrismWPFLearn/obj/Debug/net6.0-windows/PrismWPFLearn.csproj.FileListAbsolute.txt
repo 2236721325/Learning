@@ -28,3 +28,5 @@ D:\Coding\Learning\WPFLearn\PrismWPFLearn\PrismWPFLearn\obj\Debug\net6.0-windows
 D:\Coding\Learning\WPFLearn\PrismWPFLearn\PrismWPFLearn\obj\Debug\net6.0-windows\ref\PrismWPFLearn.dll
 D:\Coding\Learning\WPFLearn\PrismWPFLearn\PrismWPFLearn\obj\Debug\net6.0-windows\Views\PrismUserControl2.baml
 D:\Coding\Learning\WPFLearn\PrismWPFLearn\PrismWPFLearn\obj\Debug\net6.0-windows\Views\PrismUserControl2.g.cs
+D:\Coding\Learning\WPFLearn\PrismWPFLearn\PrismWPFLearn\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\Coding\Learning\WPFLearn\PrismWPFLearn\PrismWPFLearn\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll

@@ -1,0 +1,11 @@
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\HelloNginx.exe
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\appsettings.Development.json
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\appsettings.json
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\HelloNginx.dll
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\HelloNginx.deps.json
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\HelloNginx.runtimeconfig.json
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\HelloNginx.pdb
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\Microsoft.OpenApi.dll
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Coding\Learning\nginx\HelloNginx\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

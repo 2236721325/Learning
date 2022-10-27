@@ -467,3 +467,9 @@ D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\StackExchan
 D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
 D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\Volo.Abp.Caching.StackExchangeRedis.dll
 D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\Scriban.dll
+D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\Volo.Abp.BackgroundJobs.Abstractions.dll
+D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\Volo.Abp.Emailing.dll
+D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\Volo.Abp.TextTemplating.dll
+D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\Volo.Abp.TextTemplating.Core.dll
+D:\Coding\Learning\AbpLearn\EmptyWebAbp\EmptyWebAbp\bin\Debug\net6.0\Volo.Abp.TextTemplating.Scriban.dll

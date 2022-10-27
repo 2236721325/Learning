@@ -1,0 +1,28 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+namespace T4CodeGenerator
+{
+    public class <#=_type.Name#>Service : CrudService<<#=_type.Name#>, <#=_idproperty.PropertyType.Name#>, 
+        <#=_type.Name#>Dto, <#=_type.Name#>UpdateDto, <#=_type.Name#>CreateDto>,
+        I<#=_type.Name#>Service,
+        ITransientDependency
+    {
+        public <#=_type.Name#>Service(MyDbContext dbContext, IMapper mapper) : base(dbContext, mapper)
+        {
+        }
+
+        public override async Task<ApiResult> CanInsertAsync(<#=_type.Name#>CreateDto dto)
+        {
+          
+        }
+
+        public override async Task<ApiResult> CanUpdateAsync(<#=_type.Name#>UpdateDto dto)
+        {
+          
+        }
+    }
+}

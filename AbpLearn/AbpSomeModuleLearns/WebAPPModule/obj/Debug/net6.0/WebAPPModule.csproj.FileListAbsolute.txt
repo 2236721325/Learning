@@ -1,0 +1,7 @@
+D:\Coding\Learning\AbpLearn\AbpSomeModuleLearns\WebAPPModule\obj\Debug\net6.0\WebAPPModule.csproj.AssemblyReference.cache
+D:\Coding\Learning\AbpLearn\AbpSomeModuleLearns\WebAPPModule\obj\Debug\net6.0\WebAPPModule.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\AbpLearn\AbpSomeModuleLearns\WebAPPModule\obj\Debug\net6.0\WebAPPModule.AssemblyInfoInputs.cache
+D:\Coding\Learning\AbpLearn\AbpSomeModuleLearns\WebAPPModule\obj\Debug\net6.0\WebAPPModule.AssemblyInfo.cs
+D:\Coding\Learning\AbpLearn\AbpSomeModuleLearns\WebAPPModule\obj\Debug\net6.0\WebAPPModule.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\AbpLearn\AbpSomeModuleLearns\WebAPPModule\obj\Debug\net6.0\WebAPPModule.MvcApplicationPartsAssemblyInfo.cs
+D:\Coding\Learning\AbpLearn\AbpSomeModuleLearns\WebAPPModule\obj\Debug\net6.0\WebAPPModule.MvcApplicationPartsAssemblyInfo.cache

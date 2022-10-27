@@ -1,0 +1,12 @@
+D:\Coding\Learning\WebAPI\AutofacModule\bin\Debug\net6.0\AutofacModule.deps.json
+D:\Coding\Learning\WebAPI\AutofacModule\bin\Debug\net6.0\AutofacModule.dll
+D:\Coding\Learning\WebAPI\AutofacModule\bin\Debug\net6.0\AutofacModule.pdb
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\AutofacModule.csproj.AssemblyReference.cache
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\AutofacModule.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\AutofacModule.AssemblyInfoInputs.cache
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\AutofacModule.AssemblyInfo.cs
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\AutofacModule.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\AutofacModule.dll
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\refint\AutofacModule.dll
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\AutofacModule.pdb
+D:\Coding\Learning\WebAPI\AutofacModule\obj\Debug\net6.0\ref\AutofacModule.dll

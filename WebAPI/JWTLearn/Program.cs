@@ -44,8 +44,8 @@ namespace JWTLearn
                 };
                 
             });
-
-
+            //builder.Services.AddAuthorization(options =>
+            //options.AddPolicy("Insert",p=>p.Requirements.Add(new PermissionRequirement("Insert")))
 
             var app = builder.Build();
 

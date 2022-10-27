@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7naus1YKt6hk6Ih9l5J1MqY2YDivMmAACu+WuHcGQZI=",
+  "Source": "Dto_autemapper_redis",
+  "BasePath": "_content/Dto_autemapper_redis",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

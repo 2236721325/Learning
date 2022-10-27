@@ -1,0 +1,19 @@
+version: '3.4'
+ 
+ 
+services:
+  secondservice:
+    image: ${DOCKER_REGISTRY-}secondservice
+    build:
+      context: .
+      dockerfile: SecondService/Dockerfile
+    ports:
+     - "8100:80"
+
+      
+  secondservice1-dapr:
+     image: "daprio/daprd:latest"
+     command: [ "./daprd", "-app-id", "second", "-app-port", "80" ]
+     depends_on:
+       - secondservice
+     network_mode: "service:secondservice"

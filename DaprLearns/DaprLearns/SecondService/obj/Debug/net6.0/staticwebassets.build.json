@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MvWmIYArCACgIVW2kz7IwUuJz9QE3FryrJ23tJ/r8PA=",
+  "Source": "SecondService",
+  "BasePath": "_content/SecondService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

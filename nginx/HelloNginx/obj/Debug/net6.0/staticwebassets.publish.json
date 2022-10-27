@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ScIdzV4DKFcNWk3NL1bz/OEbcUoTjW85UrxMO8r9cE4=",
+  "Source": "HelloNginx",
+  "BasePath": "_content/HelloNginx",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

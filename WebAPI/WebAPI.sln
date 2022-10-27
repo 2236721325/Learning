@@ -37,9 +37,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_Publish", "WebAPI_Pu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI的一些约定操作返回类型", "WebAPI的一些约定操作返回类型\WebAPI的一些约定操作返回类型.csproj", "{399310B6-F72B-40C8-9944-9DD0DC4A7B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{DEED8E41-3B9C-4A1F-B9A3-3ACBAFA01B62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{DEED8E41-3B9C-4A1F-B9A3-3ACBAFA01B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "跨域", "跨域\跨域.csproj", "{96BAC92B-2AD2-4738-A31B-F44638F3BB73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "跨域", "跨域\跨域.csproj", "{96BAC92B-2AD2-4738-A31B-F44638F3BB73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "配置系统", "配置系统\配置系统.csproj", "{FDDA056C-D94C-4846-ACC0-501FE28AB225}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuidGenerator", "GuidGenerator\GuidGenerator.csproj", "{3E9A621A-5E56-455A-AF16-FBC052A38B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacDemo", "AutoFac\AutoFacDemo.csproj", "{CC4289FA-3D87-4387-8AC8-BACCB5F89AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacModule", "AutofacModule\AutofacModule.csproj", "{B8966149-544B-48DA-A356-A601DCEB452C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +119,22 @@ Global
 		{96BAC92B-2AD2-4738-A31B-F44638F3BB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96BAC92B-2AD2-4738-A31B-F44638F3BB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96BAC92B-2AD2-4738-A31B-F44638F3BB73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDA056C-D94C-4846-ACC0-501FE28AB225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDA056C-D94C-4846-ACC0-501FE28AB225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDA056C-D94C-4846-ACC0-501FE28AB225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDA056C-D94C-4846-ACC0-501FE28AB225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9A621A-5E56-455A-AF16-FBC052A38B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9A621A-5E56-455A-AF16-FBC052A38B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9A621A-5E56-455A-AF16-FBC052A38B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9A621A-5E56-455A-AF16-FBC052A38B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4289FA-3D87-4387-8AC8-BACCB5F89AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4289FA-3D87-4387-8AC8-BACCB5F89AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4289FA-3D87-4387-8AC8-BACCB5F89AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4289FA-3D87-4387-8AC8-BACCB5F89AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8966149-544B-48DA-A356-A601DCEB452C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8966149-544B-48DA-A356-A601DCEB452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8966149-544B-48DA-A356-A601DCEB452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8966149-544B-48DA-A356-A601DCEB452C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射无敌", "反射无敌\反射无敌.csproj", "{4E84F74C-2098-4EE9-8554-46DE88034A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射实现IOC", "反射实现IOC\反射实现IOC.csproj", "{F0C44937-52A0-49BE-B2C3-638FCC43F579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E84F74C-2098-4EE9-8554-46DE88034A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E84F74C-2098-4EE9-8554-46DE88034A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E84F74C-2098-4EE9-8554-46DE88034A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E84F74C-2098-4EE9-8554-46DE88034A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C44937-52A0-49BE-B2C3-638FCC43F579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C44937-52A0-49BE-B2C3-638FCC43F579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C44937-52A0-49BE-B2C3-638FCC43F579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C44937-52A0-49BE-B2C3-638FCC43F579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5853FBAB-A20F-4A56-A54C-4C03FAD1F580}
+	EndGlobalSection
+EndGlobal

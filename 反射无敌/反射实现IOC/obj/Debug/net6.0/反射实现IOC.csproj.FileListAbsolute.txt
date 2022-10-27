@@ -1,0 +1,15 @@
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\反射实现IOC.csproj.AssemblyReference.cache
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\反射实现IOC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\反射实现IOC.AssemblyInfoInputs.cache
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\反射实现IOC.AssemblyInfo.cs
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\反射实现IOC.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\反射无敌\反射实现IOC\bin\Debug\net6.0\反射实现IOC.exe
+D:\Coding\Learning\反射无敌\反射实现IOC\bin\Debug\net6.0\反射实现IOC.deps.json
+D:\Coding\Learning\反射无敌\反射实现IOC\bin\Debug\net6.0\反射实现IOC.runtimeconfig.json
+D:\Coding\Learning\反射无敌\反射实现IOC\bin\Debug\net6.0\反射实现IOC.dll
+D:\Coding\Learning\反射无敌\反射实现IOC\bin\Debug\net6.0\反射实现IOC.pdb
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\反射实现IOC.dll
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\refint\反射实现IOC.dll
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\反射实现IOC.pdb
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\反射实现IOC.genruntimeconfig.cache
+D:\Coding\Learning\反射无敌\反射实现IOC\obj\Debug\net6.0\ref\反射实现IOC.dll

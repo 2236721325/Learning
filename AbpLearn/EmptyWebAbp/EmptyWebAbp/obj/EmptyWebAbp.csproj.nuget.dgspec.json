@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[5.3.4, )"
             },
+            "Volo.Abp.Emailing": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
             "Volo.Abp.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.3.4, )"

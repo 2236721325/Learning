@@ -1,0 +1,12 @@
+D:\Coding\Learning\T4Template\Base.Shared\bin\Debug\net6.0\Base.Shared.deps.json
+D:\Coding\Learning\T4Template\Base.Shared\bin\Debug\net6.0\Base.Shared.dll
+D:\Coding\Learning\T4Template\Base.Shared\bin\Debug\net6.0\Base.Shared.pdb
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\Base.Shared.csproj.AssemblyReference.cache
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\Base.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\Base.Shared.AssemblyInfoInputs.cache
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\Base.Shared.AssemblyInfo.cs
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\Base.Shared.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\Base.Shared.dll
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\refint\Base.Shared.dll
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\Base.Shared.pdb
+D:\Coding\Learning\T4Template\Base.Shared\obj\Debug\net6.0\ref\Base.Shared.dll

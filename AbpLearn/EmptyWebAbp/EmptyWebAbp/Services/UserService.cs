@@ -1,7 +1,10 @@
-﻿using EmptyWebAbp.IServices;
+﻿using EmptyWebAbp.Datas;
+using EmptyWebAbp.IServices;
 using EmptyWebAbp.IServices.Dtos;
 using EmptyWebAbp.Models;
 using EmptyWebAbp.Shared;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Linq.Dynamic.Core;
 using System.Net;
@@ -10,10 +13,12 @@ using Volo.Abp.Application.Dtos;
 using Volo.Abp.Application.Services;
 using Volo.Abp.Caching;
 using Volo.Abp.Domain.Repositories;
+using Volo.Abp.Emailing;
 using Volo.Abp.EventBus.Distributed;
 using Volo.Abp.EventBus.Local;
 using Volo.Abp.Guids;
 using Volo.Abp.ObjectMapping;
+using Volo.Abp.Settings;
 
 namespace EmptyWebAbp.Services
 {
@@ -26,15 +31,35 @@ namespace EmptyWebAbp.Services
 
         private readonly ILocalEventBus _LocalEventBus;
         private readonly IDistributedEventBus _DistributedEventBus;
+        private readonly ISettingEncryptionService _SettingEncryptionService;
+        private readonly ISettingDefinitionManager _SettingDefinitionManager;
 
-
-        public UserService(IRepository<User, Guid> repository, IGuidGenerator guidGenerator, IDistributedCache<UserDto> cache, ILocalEventBus localEventBus, IDistributedEventBus distributedEventBus)
+        public  string GetString()
         {
+            string str= "wmroysifgjymdafc";
+            var setting = _SettingDefinitionManager.Get(EmailSettingNames.Smtp.Password);
+            var psd = _SettingEncryptionService.Encrypt(setting, str);
+            return psd;
+        }
+
+        public UserService(IRepository<User, Guid> repository, IGuidGenerator guidGenerator, IDistributedCache<UserDto> cache, ILocalEventBus localEventBus, IDistributedEventBus distributedEventBus, ISettingEncryptionService settingEncryptionService, ISettingDefinitionManager settingDefinitionManager)
+        {
+            Guid.NewGuid();
             _Repository = repository;
             _GuidGenerator = guidGenerator;
             _Cache = cache;
             _LocalEventBus = localEventBus;
             _DistributedEventBus = distributedEventBus;
+            _SettingEncryptionService = settingEncryptionService;
+            _SettingDefinitionManager = settingDefinitionManager;
+        }
+        public async Task<ApiResult<List<UserDto>>> GetAll()
+        {
+            var users=await _Repository.GetListAsync();
+            var u = await _Repository.GetQueryableAsync();
+            var dtos=ObjectMapper.Map<List<User>,List<UserDto>>(users);
+
+            return await Task.FromResult(ApiResult.Ok(dtos));
         }
 
         public async Task<ApiResult<UserDto>> GetAsync(Guid id)
@@ -87,6 +112,10 @@ namespace EmptyWebAbp.Services
             var user = ObjectMapper.Map<CreateUserDto, User>(createUserDto);
             user.CreateGuid(_GuidGenerator.Create());
             await _Repository.InsertAsync(user, true);
+            await _LocalEventBus.PublishAsync(new LoginSucceedEvent()
+            {
+                Name = user.Name
+            });
             return new ApiResult()
             {
                 Status = true
@@ -118,7 +147,7 @@ namespace EmptyWebAbp.Services
                 query=query.Where(e => e.Name.Contains(name));
             }
             long total = query.LongCount();
-            var result = query.OrderBy("Name").PageBy(skipCount, maxResultCount).ToList();
+            var result = query.OrderBy("Id").PageBy(skipCount, maxResultCount).ToList();
             return ApiResult.Ok(new PagedResultDto<UserDto>(total, ObjectMapper.Map<List<User>, List<UserDto>>(result)));
             
         }

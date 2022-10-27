@@ -1,0 +1,10 @@
+D:\Coding\Learning\T4Template\T4CodeGenerator\obj\Debug\netstandard2.1\T4CodeGenerator.csproj.AssemblyReference.cache
+D:\Coding\Learning\T4Template\T4CodeGenerator\obj\Debug\netstandard2.1\T4CodeGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Learning\T4Template\T4CodeGenerator\obj\Debug\netstandard2.1\T4CodeGenerator.AssemblyInfoInputs.cache
+D:\Coding\Learning\T4Template\T4CodeGenerator\obj\Debug\netstandard2.1\T4CodeGenerator.AssemblyInfo.cs
+D:\Coding\Learning\T4Template\T4CodeGenerator\obj\Debug\netstandard2.1\T4CodeGenerator.csproj.CoreCompileInputs.cache
+D:\Coding\Learning\T4Template\T4CodeGenerator\bin\Debug\netstandard2.1\T4CodeGenerator.deps.json
+D:\Coding\Learning\T4Template\T4CodeGenerator\bin\Debug\netstandard2.1\T4CodeGenerator.dll
+D:\Coding\Learning\T4Template\T4CodeGenerator\bin\Debug\netstandard2.1\T4CodeGenerator.pdb
+D:\Coding\Learning\T4Template\T4CodeGenerator\obj\Debug\netstandard2.1\T4CodeGenerator.dll
+D:\Coding\Learning\T4Template\T4CodeGenerator\obj\Debug\netstandard2.1\T4CodeGenerator.pdb

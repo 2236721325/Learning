@@ -17,7 +17,6 @@ namespace 使用过滤器实现缓存_内存缓存_
             var key = context.HttpContext.Request.QueryString.Value;
             cage.Set(key, context.Result);
             Console.WriteLine("没有从缓存中读取");             
-
         }
         
 

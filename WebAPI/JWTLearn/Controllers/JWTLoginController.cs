@@ -28,12 +28,12 @@ namespace JWTLearn.Controllers
             }
             //使用EFCORE 就在此创建用户
 
-            List<Claim> claims = new List<Claim>()//不要放太多东西 数据的传输也是耗时的
+            List<Claim> claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.NameIdentifier, "1"),
                 new Claim(ClaimTypes.Name,"wyh"),
                 new Claim(ClaimTypes.Role,"管理员"),
-                new Claim(ClaimTypes.Role,"王耀华")
+                new Claim(ClaimTypes.Role,"王耀华"),
             };
 
             DateTime expirationTime = DateTime.Now.AddHours(jwtSettings.ExpirationHour);
