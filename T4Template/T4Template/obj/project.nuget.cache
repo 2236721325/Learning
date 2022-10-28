@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K5Ii7RTbdlh88lb7xHOf71lzy+Iqdq/snUo0y8PlOWTa58KyFlVQYEzRb7gtjKkQyr2iF0CvG5X3lvzUA0L2KA==",
+  "dgSpecHash": "0BFpotjk+o0P7XHOqPAtyXqgy4wUkiKPan7WcUssuKJqa7xnmpEPV5xuMAup4qRnW3HQ3DwjmMIACc4gIkkH1Q==",
   "success": true,
   "projectFilePath": "D:\\Coding\\Learning\\T4Template\\T4Template\\T4Template.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.linq.dynamic.core\\1.2.20\\system.linq.dynamic.core.1.2.20.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",

@@ -55,3 +55,6 @@ D:\Coding\Learning\T4Template\TestWebApi\obj\Debug\net6.0\refint\TestWebApi.dll
 D:\Coding\Learning\T4Template\TestWebApi\obj\Debug\net6.0\TestWebApi.pdb
 D:\Coding\Learning\T4Template\TestWebApi\obj\Debug\net6.0\TestWebApi.genruntimeconfig.cache
 D:\Coding\Learning\T4Template\TestWebApi\obj\Debug\net6.0\ref\TestWebApi.dll
+D:\Coding\Learning\T4Template\TestWebApi\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
+D:\Coding\Learning\T4Template\TestWebApi\bin\Debug\net6.0\Autofac.dll
+D:\Coding\Learning\T4Template\TestWebApi\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

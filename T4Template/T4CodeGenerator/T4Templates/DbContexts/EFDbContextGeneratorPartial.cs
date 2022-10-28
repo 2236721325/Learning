@@ -15,7 +15,6 @@ namespace T4CodeGenerator.T4Templates.DbContexts
         {
             _modelTypes = modelTypes;
             _assemblyName = Assembly.GetEntryAssembly().GetName().Name;
-
         }
     }
 }

@@ -1,8 +1,12 @@
 ﻿using AutoMapper;
+using Base.Shared.Commons;
 using Base.Shared.Domains;
 using Base.Shared.Dtos;
 using Base.Shared.IServices;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Dynamic.Core;
+using System.Linq.Expressions;
+using System.Text;
 using System.Text.Json;
 
 namespace Base.Shared.Services
@@ -45,13 +49,34 @@ namespace Base.Shared.Services
 
         public async virtual Task<ApiResult<PagedListDto<TEnityDto>>> GetPagedListAsync(PagedSearchDto getPaged)
         {
-            throw new NotImplementedException();
+            var query = _Enitity.AsQueryable();
+            if (getPaged.Searchs!=null)
+            {
+                var filter = new FilterBuilder();
+                //var filter = new StringBuilder();
+                foreach (var search in getPaged.Searchs)
+                {
+                    switch (search.Value.ValueKind)
+                    {
+                        case JsonValueKind.String:
+                            filter.And($"{search.Key}.Contains(\"{search.Value}\")");
+                            break;
+                        case JsonValueKind.Number:
+                            filter.And($"{search.Key}=={search.Value}");
+                            break;
+                        default:
+                            return ApiResult.OhNo<PagedListDto<TEnityDto>>("参数错误:Search错误！");
+                    }
+                }
+                query = _Enitity.Where(filter.Build());
 
 
-            ////var count =await query.LongCountAsync();
-            ////var enities=await query.OrderBy(e=>e.Id).Skip(getPaged.SkipCount).Take(getPaged.TakeCount).ToListAsync();
-            //var dtos = _Mapper.Map<List<TEnity>, List<TEnityDto>>(enities);
-            //return ApiResult.Ok(new PagedListDto<TEnityDto>(dtos, count));
+            }
+            var count = await query.LongCountAsync();
+
+            var enities =await query.OrderBy(e=>e.Id).Skip(getPaged.SkipCount).Take(getPaged.TakeCount).ToListAsync();
+            var dtos = _Mapper.Map<List<TEnity>, List<TEnityDto>>(enities);
+            return ApiResult.Ok(new PagedListDto<TEnityDto>(dtos, count));
         }
 
         public abstract  Task<ApiResult> CanInsertAsync(TCreateDto dto);

@@ -7,7 +7,7 @@ namespace T4CodeGenerator.T4Tools
 {
     public class WebApiGenerator
     {
-        public static void GenerateWebApi(Type targetType)
+        public static void GenerateSingelProjectWebApi(Type targetType)
         {
             Tool.ProjectType = ProjectTypeEnum.WebApi;
             DtoGenerator.GenerateAllDtos(targetType);

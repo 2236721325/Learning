@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using TestWebApi.Datas;
 using TestWebApi.IServices;
 using TestWebApi.Services;
+using Autofac.Extensions.DependencyInjection;
+using Autofac;
 
 namespace TestWebApi
 {
@@ -28,6 +30,12 @@ namespace TestWebApi
             });
             builder.Services.AddTransient<IPoemService, PoemService>();
             builder.Services.AddTransient<IUserService, UserService>();
+
+            builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+            builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
+            {
+                builder.RegisterModule<TestWebApiModule>();
+            });
 
             var app = builder.Build();
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ahzYYaDI04c8UbJy6dTRLLfJP1TKtIIGWZGysM/jClq4VQiDumY28qPW3hhPi8Hw++QXOvi7r4FOgb1MuGz0+w==",
+  "dgSpecHash": "D+DuiABb/zk2XPOouYTpPVx8h/MQlMSmuhwfE8W/ylWpJCVwlo50TBHq0LCwCo6TNyvIL7jvVf5ceo07Xa2VTg==",
   "success": true,
   "projectFilePath": "D:\\Coding\\Learning\\T4Template\\Base.Shared\\Base.Shared.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.linq.dynamic.core\\1.2.20\\system.linq.dynamic.core.1.2.20.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
