@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d8aToPzai3hKFiCRbwRoSBzKhZKnzSQ126954QShZ4tGhhvy1TucYIBwUskQlQN0BlK//U6egwnZpKDrJS/8GA==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\Learning\\MQTTLearn\\MQTTServer\\MQTTServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\4.1.2.350\\mqttnet.4.1.2.350.nupkg.sha512"
+  ],
+  "logs": []
+}

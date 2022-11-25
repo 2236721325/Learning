@@ -1,0 +1,12 @@
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\Dockerfile
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\shellpublish.exe
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\shellpublish.dll
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\shellpublish.deps.json
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\shellpublish.runtimeconfig.json
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\shellpublish.pdb
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Coding\Learning\shellpublish\shellpublish\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

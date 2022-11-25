@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z7tWxCr4VzsZPn8g6lPsOztEcHq8ISlTcPtW/9tIWcbbcWQjKWtY8OAdtIvAYO38qXwGRaY/2sw9XRPBaCmwwA==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\Learning\\ConsoleAmazing\\ConsoleAmazing\\ConsoleAmazing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\spectre.console\\0.45.0\\spectre.console.0.45.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

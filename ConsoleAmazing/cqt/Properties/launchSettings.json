@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "cqt": {
+      "commandName": "Project"
+    }
+  }
+}

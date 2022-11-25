@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "JZ6sFUmzCDz37pHdFoMU2KThgVJGW2sPXxTiqKUjHvvQOjBWeGB0vL69YrrgWJtq0ZpsFhOcrCYClleBtnVsGw==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\Learning\\ConsoleAmazing\\cqt\\cqt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\spectre.console\\0.45.0\\spectre.console.0.45.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
