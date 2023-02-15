@@ -34,7 +34,7 @@ namespace MQTTServer
             _server.ValidatingConnectionAsync += e =>
             {
 
-                if (e.UserName != "wyh"||e.Password!="7758mmMM")
+                if (e.UserName != "*****"||e.Password!="*******")
                 {
                     e.ReasonCode = MqttConnectReasonCode.BadUserNameOrPassword;
                 }
